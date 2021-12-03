@@ -3,15 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>Home</title>
-  <link href="css.main.css" rel=stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css.main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/jzp2ryw.css">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to Navigation</a></li>
+    <li><a href="#main">Skip to Main Content</a></li>
+  </ul>
+
   <header role="banner">
     <img src="images/logo.svg" alt="Logo">
     <h1>The Feline Order</h1>
-    <nav role="navigation">
+    <nav role="navigation" id="nav">
       <ul class="nav-ul">
         <li><a href="index.html">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
@@ -22,24 +28,22 @@
     <h2>Welcome, Mew, To Your Liberation</h2>
   </header>
 
-  <section class="home-section">
-  <article class="home-column1">
-    <h3>Now what does that mean exactly?</h3>
-    <p>We are the Feline Order and unlike you human plebeians, we don’t beat around the scratching post in telling you what we are all about — converting you, yes YOU, into one of us. A cat. Or at least as catlike as you can be considering our physical differences.</p>
-    <img class="paws-hor-1" src="images/paws-hor.svg" alt="Horizontal paws">
-  </article>
-  <article class="home-column2">
-    <img class="paws-hor-2" src="images/paws-hor.svg" alt="Horizontal paws">
-    <h3>Join us! Become purrfect!</h3>
-    <p>(Or die a lame life worshipping us, scratching our asses, and spending thousands of dollars on low quality tinned tuna)</p>
-  </article>
-  </section>
+  <main role="main" id="main">
+    <section class="home-column1">
+      <h3>Now what does that mean exactly?</h3>
+      <p>We are the Feline Order and unlike you human plebeians, we don’t beat around the scratching post in telling you what we are all about — converting you, yes YOU, into one of us. A cat. Or at least as catlike as you can be considering our physical differences.</p>
+      <img class="paws-hor-1" src="images/paws-hor.svg" alt="Horizontal paws">
+    </section>
+    <section class="home-column2">
+      <img class="paws-hor-2" src="images/paws-hor.svg" alt="Horizontal paws">
+      <h3>Join us! Become purrfect!</h3>
+      <p>(Or die a lame life worshipping us, scratching our asses, and spending thousands of dollars on low quality tinned tuna)</p>
+    </section>
+  </main>
 
   <footer role="contentinfo">
     <h4>Contact Us</h4>
-    <p class="contact-info">
-      felineorder@gmeowl.com
-      <span>1 800 EFF DOGS</span></p>
+    <p class="contact-info"> felineorder@gmeowl.com <span>1 800 EFF DOGS</span></p>
   </footer>
 
 </body>
