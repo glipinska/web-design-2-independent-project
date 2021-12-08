@@ -182,7 +182,7 @@ nav a:hover {
 
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5em) {
   .nav-toggle-label {
     display: none;
   }
@@ -314,6 +314,7 @@ div h2 {
     position: relative;
     margin: 0;
     padding-top: 1em;
+    margin-bottom: -600px;
   }
 
   .home-column2 {
@@ -466,6 +467,8 @@ footer p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: absolute;
+    height: 50px;
+    margin-top: 100px;
   }
 
   .about-us-column1 {
@@ -486,7 +489,7 @@ footer p {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     position: relative;
-    top: -40px;
+    top: -44px;
   }
 
   .about-us-column2 h3, img, p {
@@ -498,10 +501,115 @@ footer p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    position: relative;
+    top: -48px;
   }
 
   .about-us-column3 h3, img, p {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  footer {
+    margin-top: 700px;
+  }
+}
+
+/* JOIN US */
+
+.join-us-main {
+  margin-bottom: 1100px;
+}
+
+.join-us-main h3 {
+  color: #000;
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.join-us-main p {
+  color: #000;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 1em;
+  margin-top: -100px;
+}
+
+.logo2 {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commandments-ul {
+  color: #000;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 2em;
+  margin-top: -1em;
+}
+
+.paws-ver-1 {
+  max-width: 100vh;
+  max-height: 100vw;
+  transform: rotate(90deg);
+  margin-top: -100px;
+}
+
+.paws-ver-2 {
+  max-width: 100vh;
+  max-height: 100vw;
+  transform: rotate(-90deg);
+  margin-top: -100px;;
+}
+
+@media screen and (min-width: 768px) {
+
+  .join-us-main {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 100%;
+  }
+
+  .paws-ver-1 {
+    max-width: 100%;
+    max-height: 100%;
+    transform: rotate(0deg);
+    margin-top: -100px;
+    transform: scaleX(-1);
+  }
+
+  .join-us-main p {
+    margin-top: -30px;
+  }
+
+  .logo2 {
+    max-width: 20%;
+  }
+
+  .paws-ver-2 {
+    max-width: 100%;
+    max-height: 100%;
+    transform: rotate(0deg);
+    margin-top: -100px;;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  .join-us-main {
+    margin-bottom: -500px;
+    margin-top: 100px;
+    height: 100%;
   }
 }
