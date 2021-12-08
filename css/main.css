@@ -296,7 +296,7 @@ div h2 {
   transform: scaleX(-1)
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
 
   div img {
     width: 100%;
@@ -418,7 +418,7 @@ footer p {
   transform: scaleX(-1)
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
 
   .about-us-main {
     margin-bottom: 200px;
@@ -461,7 +461,7 @@ footer p {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5em) {
 
   .about-us-main {
     display: grid;
@@ -570,7 +570,7 @@ footer p {
   margin-top: -100px;;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
 
   .join-us-main {
     display: grid;
@@ -605,7 +605,7 @@ footer p {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5em) {
 
   .join-us-main {
     margin-bottom: -500px;
@@ -613,6 +613,3 @@ footer p {
     height: 100%;
   }
 }
-
-
-.join-us.
