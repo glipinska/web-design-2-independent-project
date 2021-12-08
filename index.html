@@ -4,46 +4,59 @@
   <meta charset="utf-8">
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css.main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/jzp2ryw.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
 </head>
 <body>
 
   <ul class="skip-links">
     <li><a href="#nav">Skip to Navigation</a></li>
+    <li><a href="#form">Skip to Home Banner</a></li>
     <li><a href="#main">Skip to Main Content</a></li>
   </ul>
 
   <header role="banner">
     <img src="images/logo.svg" alt="Logo">
     <h1>The Feline Order</h1>
+    <input type="checkbox" name="checkbox" id="nav-toggle" class="nav-toggle">
     <nav role="navigation" id="nav">
-      <ul class="nav-ul">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
         <li><a href="join-us.html">Join Us</a></li>
       </ul>
     </nav>
-    <img class="home-banner" src="images/home-banner.jpg" alt="Home banner">
-    <h2>Welcome, Mew, To Your Liberation</h2>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
   </header>
 
-  <main role="main" id="main">
+  <div class="feature-banner" role="form" id="form" tabindex="0">
+    <img class="home-banner" src="images/home-banner.jpg" alt="Home banner">
+    <h2>Welcome, Mew, To Your Liberation</h2>
+  </div>
+
+  <main class="home-main" role="main" id="main">
     <section class="home-column1">
       <h3>Now what does that mean exactly?</h3>
       <p>We are the Feline Order and unlike you human plebeians, we don’t beat around the scratching post in telling you what we are all about — converting you, yes YOU, into one of us. A cat. Or at least as catlike as you can be considering our physical differences.</p>
       <img class="paws-hor-1" src="images/paws-hor.svg" alt="Horizontal paws">
     </section>
     <section class="home-column2">
-      <img class="paws-hor-2" src="images/paws-hor.svg" alt="Horizontal paws">
+      <div class="h3-p">
       <h3>Join us! Become purrfect!</h3>
       <p>(Or die a lame life worshipping us, scratching our asses, and spending thousands of dollars on low quality tinned tuna)</p>
+    </div>
+      <img class="paws-hor-2" src="images/paws-hor.svg" alt="Horizontal paws">
     </section>
   </main>
 
   <footer role="contentinfo">
     <h4>Contact Us</h4>
-    <p class="contact-info"> felineorder@gmeowl.com <span>1 800 EFF DOGS</span></p>
+    <p class="contact-info"> felineorder@gmeowl.com</p>
+    <p class="phone">1 800 EFF DOGS</p>
   </footer>
 
 </body>
