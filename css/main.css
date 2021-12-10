@@ -84,6 +84,7 @@ div h2 {
     margin-left: 50%;
     transform: translateX(-50%);
     opacity: .7;
+    padding-top: 50px;
   }
 
   .home-main {
@@ -295,7 +296,7 @@ footer p {
 }
 
 .join-us-main {
-  margin-bottom: 1100px;
+  margin-bottom: 1000px;
 }
 
 .join-us-main h3 {
