@@ -65,6 +65,18 @@ div h2 {
   transform: scaleX(-1);
 }
 
+.home-column2 article {
+  text-align: center;
+}
+
+.home-column2 article a {
+  text-align: center;
+  font-family: cubano, sans-serif;
+  font-style: normal;
+  color: #000;
+
+}
+
 @media screen and (min-width: 48em) {
 
   div img {
